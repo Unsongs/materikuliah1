@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFlow - Direktori Pengajar</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        background-color: #f4f7f9;
+      }
+    </style>
+  </head>
+
+  <body class="font-mono text-gray-800">
+    <!--navbar-->
+    <header
+      class="bg-[#264E70] w-300 h-auto mr-auto ml-auto mt-5 rounded-2xl shadow-lg z-1000 sticky top-5"
+    >
+      <nav class="mx-auto flex items-center justify-between p-3">
+        <!-- Logo -->
+        <div class="flex lg:flex-1">
+          <div
+            class="text-[24px] font-mono font-semibold leading-6 tracking-wider ml-2"
+          >
+            <span class="text-[#FFFFFF] text-shadow-md">Edu</span
+            ><span class="text-[#8CF9EB] text-shadow-md">Flow</span>
+          </div>
+        </div>
+        <!-- Navigation Links -->
+        <div
+          class="flex font-mono text-[18px] font-semibold line tracking-wide lg:flex-2 lg:gap-x-10"
+        >
+          <a href="index.html" class="text-[#FFFFFF] no-underline text-shadow-md">Home</a>
+            <a href="ListMtkul.html" class="text-[#FFFFFF] no-underline text-shadow-md">
+              Materi Kuliah
+            </a>
+            <a href="infodosen.html" class="text-[#FFFFFF] no-underline text-shadow-md">
+              Info Dosen
+            </a>
+          <div class="relative">
+            <button id="contactButton" type="button" class="flex items-center gap-1 text-[#FFFFFF] no-underline text-shadow-md">
+              Contact
+              <svg
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-white"
+              >
+                <path
+                  d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div id="contactMenu" class="absolute right-0 mt-2 hidden min-w-65 bg-white shadow-lg">
+              <a href="https://wa.me/6281234567890" target="_blank" rel="noreferrer" class="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-100">WhatsApp : +1 823769123</a>
+              <a href="https://instagram.com/" target="_blank" rel="noreferrer" class="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-100">Instagram</a>
+              <a href="https://linkedin.com/" target="_blank" rel="noreferrer" class="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-100">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <!--user account-->
+        <div class="flex gap-x-3 mr-10 text-shadow-md">
+          <img
+            class="h-11 w-11 rounded-full bg-gray-50 border-2 border-indigo-600 shadow-md"
+            src="Assets/SELEE.jpg"
+            alt=""
+            />
+            <div class="font-mono text-[12px] font-semibold line">
+              <p class="tracking-wider text-white">
+                Kyun
+              </p>
+              <p class="tracking-wider text-white">
+                2109106045
+                </p>
+                <a href="#" class="tracking-wider text-[#8EFFEE] underline">kyunkyun06@email.com</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--card dosen-->
+    <main class="max-w-306.25 mx-auto px-6 py-10 min-h-screen">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/bukanisya.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Anisya, S.Kom, M.Kom</p>
+              <p>Email : nisa.anisya@gmail.com</p>
+              <p>Lecturer ID - 1005079101</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/anisya">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Anna_Syahrani.png"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Anna Syahrani M.Eng</p>
+              <p>Email : annasyahrani@itp.ac.id</p>
+              <p>Lecturer ID - 1006068501</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/anna-syahrani">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Busran.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Busran, S.Pd M.T</p>
+              <p>Email : busran.nofit@gmail.com</p>
+              <p>Lecturer ID - 1013087202</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/busran">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Dede_Wira_Trise_Putra.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama :  Dede Wira Trise Putra, S.Kom, M.Kom</p>
+              <p>Email : dedewtp339@yahoo.com</p>
+              <p>Lecturer ID - 1025019003</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/dede-wira-trise-putra">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Eko_Kurniawanto_Putra.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama :  Eko Kurniawanto Putra, S.Pd., M.T</p>
+              <p>Email : okeputra09@gmail.com</p>
+              <p>Lecturer ID - 1010128501</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/eko-kurniawanto-putra">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Eva_Yulianti.png"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Eva Yulianti, M.Cs</p>
+              <p>Email : ev4_yuli4nti@yahoo.com</p>
+              <p>Lecturer ID - 1022077601h</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/eva-yulianti">
+
+                </a>
+              <button
+                class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+              >
+                Lihat selengkapnya
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Firmansyah_David.png"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Firmansyah David, S.T, M.Eng, Ph.D.</p>
+              <p>Email : firman@itp.ac.id</p>
+              <p>Lecturer ID - 1003088202</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/firmansyah-david">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Ganda_Yoga_Swara.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Ganda Yoga Swara, S.Kom., M.Kom.</p>
+              <p>Email : gandayogaswara@yahoo.com</p>
+              <p>Lecturer ID - 1025108901</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/ganda-yoga-swara">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Indra_Warman.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Indra Warman, M.Kom/p>
+              <p>Email :  indrawmn@gmail.com</p>
+              <p>Lecturer ID - 1010077602</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/indra-warman">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Minarni.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Minarni, S. Si, M.T</p>
+              <p>Email : minarni1706@gmail.com</p>
+              <p>Lecturer ID - 1017067501</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/minarni">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1C4A75] rounded-xl p-4 flex gap-5 text-white shadow-md"
+        >
+          <img
+            src="Assets/Putri_Mandarani.jpg"
+            alt="Profile"
+            class="w-30 h-35 object-cover rounded-lg shrink-0"
+          />
+          <div class="flex flex-col justify-between w-full py-1">
+            <div class="text-[15px] font-medium leading-[1.6] text-shadow-lg">
+              <p>Nama : Putri Mandarani, M.T</p>
+              <p>Email : pmandarani2@gmail.com</p>
+              <p>Lecturer ID - 1022128501</p>
+              <p>Bidang : Teknik Informatika</p>
+            </div>
+            <div class="flex justify-end mt-2">
+                <a href="https://itp.ac.id/dosen/profil-dosen/putri-mandarani">
+                    <button
+                      class="bg-[#F1F5F9] text-[#1C4A75] text-[11px] font-bold px-4 py-1.5 rounded-md hover:bg-white transition shadow-sm"
+                    >
+                      Lihat selengkapnya
+                    </button>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+        <script>
+      const contactButton = document.getElementById('contactButton');
+      const contactMenu = document.getElementById('contactMenu');
+
+      if (contactButton && contactMenu) {
+        contactButton.addEventListener('click', function (event) {
+          event.stopPropagation();
+          contactMenu.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', function (event) {
+          const target = event.target;
+          if (!contactMenu.contains(target) && !contactButton.contains(target)) {
+            contactMenu.classList.add('hidden');
+          }
+        });
+      }
+    </script>
+
+    <!--footer-->
+    <footer class="bg-[#002244] text-white font-mono mt-12 w-full pt-16 pb-8">
+      <div
+        class="max-w-306.25 mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10"
+      >
+        <div class="flex flex-col gap-4">
+          <div class="text-[24px] font-bold tracking-wider">
+            <span>Edu</span><span class="text-[#8CF9EB]">Flow</span>
+          </div>
+          <p class="text-[13px] text-gray-300 leading-relaxed max-w-62.5">
+            Empowering students with reliable, expert-verified academic
+            materials to excel in their university journey.
+          </p>
+          <div class="flex gap-3 mt-2">
+            <span
+              class="w-8 h-8 rounded-full bg-[#0E3A66] flex items-center justify-center text-sm cursor-pointer hover:bg-opacity-80"
+              >🌐</span
+            >
+            <span
+              class="w-8 h-8 rounded-full bg-[#0E3A66] flex items-center justify-center text-sm cursor-pointer hover:bg-opacity-80"
+              >🔗</span
+            >
+            <span
+              class="w-8 h-8 rounded-full bg-[#0E3A66] flex items-center justify-center text-sm cursor-pointer hover:bg-opacity-80"
+              >✉️</span
+            >
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-[16px] font-bold mb-4 tracking-wide text-white">
+            Products
+          </h3>
+          <ul class="space-y-2.5 text-[13px] text-gray-300 font-medium">
+            <li>
+              <a href="#" class="hover:text-white transition">Study Guides</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition">Lecture Notes</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition"
+                >Research Repository</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition">Expert Consult</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-[16px] font-bold mb-4 tracking-wide text-white">
+            Support
+          </h3>
+          <ul class="space-y-2.5 text-[13px] text-gray-300 font-medium">
+            <li>
+              <a href="#" class="hover:text-white transition">Help Center</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition"
+                >Community Forum</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition"
+                >Academic Integrity</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-[16px] font-bold mb-4 tracking-wide text-white">
+            Legal
+          </h3>
+          <ul class="space-y-2.5 text-[13px] text-gray-300 font-medium">
+            <li>
+              <a href="#" class="hover:text-white transition"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition">Cookie Policy</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition">DMCA Notice</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="max-w-306.25 mx-auto px-6 mt-12">
+        <hr class="border-[#0E3A66]" />
+        <div
+          class="flex flex-col sm:flex-row justify-between items-center pt-6 text-[12px] text-gray-400 font-medium gap-4"
+        >
+          <p>© 2026 EduFlow Academic. All rights reserved.</p>
+          <div class="flex gap-4">
+            <a href="#" class="hover:text-white transition">English</a>
+            <a href="#" class="hover:text-white transition">Bahasa Indonesia</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

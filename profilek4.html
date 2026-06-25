@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header
+      class="bg-[#264E70] w-300 h-auto mr-auto ml-auto mt-5 rounded-2xl shadow-lg z-1000 sticky top-5"
+    >
+      <nav class="mx-auto flex items-center justify-between p-3">
+        <!-- Logo -->
+        <div class="flex lg:flex-1">
+          <div
+            class="text-[24px] font-mono font-semibold leading-6 tracking-wider ml-2"
+          >
+            <span class="text-[#FFFFFF] text-shadow-md">Edu</span
+            ><span class="text-[#8CF9EB] text-shadow-md">Flow</span>
+          </div>
+        </div>
+        <!-- Navigation Links -->
+        <div
+          class="flex font-mono text-[18px] font-semibold line tracking-wide lg:flex-2 lg:gap-x-10"
+        >
+          <a href="index.html" class="text-[#FFFFFF] no-underline text-shadow-md">Home</a>
+            <a href="ListMtkul.html" class="text-[#FFFFFF] no-underline text-shadow-md">
+              Materi Kuliah
+            </a>
+            <a href="infodosen.html" class="text-[#FFFFFF] no-underline text-shadow-md">
+              Info Dosen
+            </a>
+          <div class="relative">
+            <button id="contactButton" type="button" class="flex items-center gap-1 text-[#FFFFFF] no-underline text-shadow-md">
+              Contact
+              <svg
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-white"
+              >
+                <path
+                  d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div id="contactMenu" class="absolute right-0 mt-2 hidden min-w-65 bg-white shadow-lg">
+              <a href="https://wa.me/6281234567890" target="_blank" rel="noreferrer" class="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-100">WhatsApp : +1 823769123</a>
+              <a href="https://instagram.com/" target="_blank" rel="noreferrer" class="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-100">Instagram</a>
+              <a href="https://linkedin.com/" target="_blank" rel="noreferrer" class="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-100">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <!--user account-->
+        <div class="flex gap-x-3 mr-10 text-shadow-md">
+          <img
+            class="h-11 w-11 rounded-full bg-gray-50 border-2 border-indigo-600 shadow-md"
+            src="Assets/SELEE.jpg"
+            alt=""
+            />
+            <div class="font-mono text-[12px] font-semibold line">
+              <p class="tracking-wider text-white">
+                Kyun
+              </p>
+              <p class="tracking-wider text-white">
+                2109106045
+                </p>
+                <a href="#" class="tracking-wider text-[#8EFFEE] underline">kyunkyun06@email.com</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    
+    <!--Profile list-->
+    <div class="w-200 bg-[#faffb4] p-6 flex rounded-lg items-center justify-center shadow-lg mr-auto ml-auto mt-10 gap-x-20">
+        <img src="Assets/bukanisya.jpg" class="h-50 w-50 border-indigo-600 border-4 shadow-lg">
+        <div class="font-mono text-[20px] tracking-wide text-shadow-md">    
+            <p>Name     : Anisya, S. Kom, M.Kom</p>
+            <p>Email    : <a href="mailto:nisa.anisya@gmail.com" class="text-blue-700 underline">nisa.anisya@gmail.com</a></p>
+            <p>Profesi  : Dosen Institut Teknologi Padang</p>
+            <p>Jurusan  : Teknik Informatika</p>
+            <a href="https://itp.ac.id/dosen/profil-dosen/anisya">
+                <button class="bg-[#0F4C81] hover:cursor-pointer tracking-wide text-white px-6 py-2 shadow-md text-[18px] mt-10 rounder-md">Kunjungi Portofolio</button>
+            </a>
+        </div>
+    </div>
+        <div class="w-200 bg-[#e3c8ff] p-6 flex rounded-lg items-center justify-center shadow-lg mr-auto ml-auto mt-10 gap-x-20">
+        <img src="Assets/SELEE.jpg" class="h-50 w-50 border-indigo-600 border-4 shadow-lg">
+        <div class="font-mono text-[20px] tracking-wide text-shadow-md">    
+            <p>Name     : Kausar Abdillah .S</p>
+            <p>Username : Kyuuna</p>
+            <p>Profesi  : Mahasiswa</p>
+            <p>Nim      : 2024610017</p>
+            <p>Jurusan  : Informatic Engineering</p>
+        </div>
+    </div>
+    <div class="w-200 bg-[#262626] p-6 flex rounded-lg items-center justify-center shadow-lg mr-auto ml-auto mt-10 gap-x-20">
+        <img src="Assets/ZolaK.jpeg" class="h-50 w-50 border-indigo-600 border-4 shadow-lg">
+        <div class="font-mono text-[20px] tracking-wide text-shadow-md text-white">    
+            <p>Name     : Trizola Kurniawan</p>
+            <p>Username : Zhen</p>
+            <p>Profesi  : Mahasiswa</p>
+            <p>Nim      : 2024610026</p>
+            <p>Jurusan  : Informatic Engineering</p>
+        </div>
+    </div>
+        <div class="w-200 bg-[#c36100] p-6 flex rounded-lg items-center justify-center shadow-lg mr-auto ml-auto mt-10 gap-x-20">
+        <img src="Assets/WandaA.jpg" class="h-50 w-50 border-indigo-600 border-4 shadow-lg">
+        <div class="font-mono text-[20px] tracking-wide text-shadow-md text-white">    
+            <p>Name     : Wanda Adriyan</p>
+            <p>Username : Karinzaaa</p>
+            <p>Profesi  : Mahasiwa</p>
+            <p>Nim      : 2024610012</p>
+            <p>Jurusan  : Informatic Engineering</p>
+        </div>
+    </div>
+            <div class="w-200 bg-[#b93c3c] p-6 flex rounded-lg items-center justify-center shadow-lg mr-auto ml-auto mt-10 gap-x-20">
+        <img src="assets/YefriH.jpeg" class="h-50 w-50 border-indigo-600 border-4 shadow-lg">
+        <div class="font-mono text-[20px] tracking-wide text-shadow-md text-white">    
+            <p>Name     : Yefri Maitifa Hafizh</p>
+            <p>Username : Kapuyuak</p>
+            <p>Profesi  : Mahasiswa</p>
+            <p>Nim      : 2024610032</p>
+            <p>Jurusan  : Informatic Engineering</p>
+        </div>
+    </div>
+
+        <script>
+      const contactButton = document.getElementById('contactButton');
+      const contactMenu = document.getElementById('contactMenu');
+
+      if (contactButton && contactMenu) {
+        contactButton.addEventListener('click', function (event) {
+          event.stopPropagation();
+          contactMenu.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', function (event) {
+          const target = event.target;
+          if (!contactMenu.contains(target) && !contactButton.contains(target)) {
+            contactMenu.classList.add('hidden');
+          }
+        });
+      }
+    </script>
+</body>
+</html>
